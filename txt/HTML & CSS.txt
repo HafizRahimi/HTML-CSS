@@ -1,0 +1,146 @@
+
+Title: دوره جامع آموزش html & css
+
+Site: https://toplearn.com/c/Kr8Y
+
+Videos: 69
+
+Time: 19:30
+
+
+-------------------------------------------------------------------
+
+have to See the before start second project:
+
+                 https://toplearn.com/c/Kr8Y
+
+                 Video 31 HTML and CCS,
+                 Video 32 HTML and CCS,
+                 Video 41 HTML and CCS,
+                 Video 42 HTML and CCS,
+                 Video 52 HTML and CCS, flot
+                 Video 53 HTML and CCS, clear
+                 Video 59 HTML and CCS,***
+                 Video 68 HTML and CCS,media 
+
+margin, padding, list, link, flot, clear, Semantic Elements, media   
+
+-------------------------------------------------------------------------------------------
+Video 25:
+واحد های اندازه گیری
+
+    font-size: 2mm;     mili mater
+    font-size: 2cm;     canti mater
+    font-size: 20px;    px
+    font-size: 50%;     %
+    font-size: 3ch; 
+    font-size: 0.5em;    fontSize parent (0.5 . 30 = 15px) 
+    font-size: 0.5rem;   fontSize root (0.5 . 50 = 25px)
+-------------------------------------------------------------------------------------------
+Video 26:
+واحد های اندازه گیری
+
+    font-size: 2vw;     View Width 
+    font-size: 2vh;     View Height
+    font-size: 2vmin;   View Min-size
+    font-size: 2vmax;   View Man-size 
+    
+
+
+-------------------------------------------------------------------------------------------
+Video 34:
+1- outline
+    margin <--> outline <--> border 
+
+2- outline-offset
+    outline <--> outline-offset <--> border 
+
+
+
+margin <--> border <--> padding <--> content
+
+margin <--> outline <--> border <--> padding <--> content
+
+margin <--> outline <--> outline-offset <--> border <--> padding <--> content
+
+
+-------------------------------------------------------------------------------------------
+Video 49:
+Position 
+
+Position: static  (ساکن)
+    به صورت پیش فرض
+    HTML elements are positioned static by default
+
+Position: relative  (خودی)
+    نسبت به موقعیت طبیعی خود
+    An element with position: relative; is positioned relative to its normal position.
+    top botton right ledt
+
+Position: fixed
+حتی اگر صفحه پیمایش شود ، همیشه در همان مکان باقی می ماند
+
+
+-------------------------------------------------------------------------------------------
+Video 50:
+Position 
+
+Position:absolute
+     نسبت به نزدیکترین جد با موقعیت قرار گرفته
+
+     div.relative
+        div.absolute
+
+Position: sticky
+    بر اساس موقعیت پیمایش کاربر قرار
+
+z-index
+    When we use position, we can use z-index
+
+
+-------------------------------------------------------------------------------------------
+Video 51:
+Oveflow 
+
+overflow: auto;
+            visible
+            hidden
+            scroll
+            auto
+
+overflow-y: auto;
+overflow-x: auto;
+
+
+-------------------------------------------------------------------------------------------
+Video 52:
+float
+
+float: left;
+        right
+
+
+
+-------------------------------------------------------------------------------------------
+Video 53:
+clear 
+
+1- class="clearfix"
+
+    /* .clearfix{
+        clear: both;
+    } */
+
+    .clearfix::after,
+    .clearfix::before{
+        content: ' ';
+        display: table;
+    }
+
+2- class="row"          row(ردیف)
+
+all website have:
+    1- header 
+    2- main 
+    3- side-bar  show with tag aside
+    4- footer 
